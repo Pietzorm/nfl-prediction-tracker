@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" async></script>
+    <title>🏈 NFL Prediction Tracker 2025/26</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>NFL Prediction Tracker 2025/26</h1>
+            <p>Make your predictions and track your accuracy</p>
+        </div>
+
+        <div class="week-selector">
+            <select id="weekSelect" class="week-select">
+                <!-- Week options will be populated by JavaScript -->
+            </select>
+            <button class="refresh-btn" id="refreshBtn" onclick="fetchCurrentLive()">
+                Refresh Data
+            </button>
+        </div>
+
+        <div id="loading" class="loading" style="display: none;">
+            Loading NFL data...
+        </div>
+
+        <div id="error" class="error-message" style="display: none;"></div>
+
+        <div id="weekContent">
+            <!-- Week content will be populated by JavaScript -->
+        </div>
+
+        <div id="noWeeks" class="no-weeks">
+            <p>Loading current NFL week data...</p>
+        </div>
+    </div>
+</body>
+
+</html>
