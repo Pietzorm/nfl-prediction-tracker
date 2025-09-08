@@ -101,6 +101,7 @@ body {
     background: white;
     border-radius: 16px;
     padding: 32px;
+    margin-top: 32px;
     margin-bottom: 32px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
     display: flex;
@@ -206,6 +207,13 @@ body {
     font-size: 0.8125rem;
     color: #86868b;
     margin-top: 4px;
+    font-weight: 400;
+}
+
+.game-date {
+    font-size: 0.75rem;
+    color: #86868b;
+    margin-top: 2px;
     font-weight: 400;
 }
 
